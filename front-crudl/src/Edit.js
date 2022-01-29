@@ -92,7 +92,7 @@ const Edit=(kalpana)=>{
                         onChange={perform}
                         name="basic"
                         value={data.basic}
-                        />
+                        /> 
                         <InputLabel htmlFor="outlined-adornment-services">Organizarion services</InputLabel>
                         <OutlinedInput
                             id="outlined-adornment-services"

@@ -1,13 +1,13 @@
 import axios from 'axios';
-const url="http://localhost:8081/DlitheBootcampBasicPoc/rest";
+//const url="http://localhost:8081/DlitheBootcampBasicPoc/rest";
+const url="http://localhost:8080/DlitheBootcampBasicPoc-0.0.1-SNAPSHOT/rest";
 
 //axios.mthod(url,object)
 
-// const abc=async()=>{
-
+    // const abc=async()=>{    
     // const rec =await axios.get(`${url}/`)
     // return rec}
-    const traverse=async()=>{
+    const traverse=async()=>{ 
         const tmp= await axios.get(`${url}/`)
          return tmp 
      }
